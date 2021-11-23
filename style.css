@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  height: 100vh
+}
+
+#canvas1 {
+  background: black;
+  width: 100%;
+  height: 100vh;
+  cursor: none;
+}
+
+.intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: none;
+}
+
+.intro h1 {
+  color: white;
+  font-size: 80px;
+  text-shadow: 2px 2px 6px #000000;
+}
+
+.intro h3 {
+  font-weight: 400;
+  color: white;
+  font-size: 35px;
+  text-shadow: 2px 2px 6px #000000;
+}
+
+.second {
+  height: 100vh;
+  color: black;
+}
+
+.second h2 {
+  padding-top: 300px;
+  text-align: center;
+  font-size: 80px;
+}
